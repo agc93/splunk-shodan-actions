@@ -1,0 +1,9 @@
+language: bash
+
+install: true
+script: ./build-package.sh
+
+# safelist
+branches:
+  only:
+  - master
