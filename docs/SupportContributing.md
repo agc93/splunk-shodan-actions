@@ -16,5 +16,6 @@ To contribute fixes or features to this app, please follow the guidelines below:
 - Fork the repo
 - Create a new branch named `feature/<your-feature-name>` and make your changes
 - Open a PR from your feature branch against the `master` branch (include the GitHub issue number for fixes)
-- Success! I will provide feedback if needed, or just accept the changes directly and they should appear in the next release
+- Success! I will provide feedback if needed, or just accept the changes directly and they should appear in the next release.
 
+If all else fails, reach out to me by email (`git log`) and I will try and help if possible.

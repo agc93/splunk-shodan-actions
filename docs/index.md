@@ -9,7 +9,7 @@ Install this app on your search head (6.3+) to add the workflow actions; there i
 Documentation:
 
 - [Release Notes](ReleaseNotes.md)
-- [Support and Contributing](Contributing.md)
+- [Support and Contributing](SupportContributing.md)
 
 ## Installation and Compatibility
 
