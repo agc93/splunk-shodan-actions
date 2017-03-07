@@ -9,7 +9,7 @@ else
     rm -rf ./.build/$extName/*
 fi
 
-cp -r ./!(*.sh|*.tgz|*.yml) ./.build/$extName/
+cp -r ./!(*.sh|*.tar.gz|*.yml) ./.build/$extName/
 tar cvpzf ./.build/$extName.tar.gz -C ./.build --exclude $extName/docs --exclude $extName.tar.gz $extName/
 
 mv ./.build/$extName.tar.gz .
