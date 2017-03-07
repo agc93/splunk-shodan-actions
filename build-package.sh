@@ -10,6 +10,6 @@ else
 fi
 
 cp -r ./!(*.sh|*.tgz|*.yml) ./.build/$extName/
-tar cvpzf ./.build/$extName.tgz -C ./.build --exclude $extName/docs --exclude $extName.tgz $extName/
+tar cvpzf ./.build/$extName.tar.gz -C ./.build --exclude $extName/docs --exclude $extName.tar.gz $extName/
 
-mv ./.build/$extName.tgz .
+mv ./.build/$extName.tar.gz .
